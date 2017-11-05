@@ -1,0 +1,33 @@
+aside{
+  float: left;
+  width: 20%;
+  background-color: silver;
+  margin-right: 2%;
+}
+aside li{
+  list-style: none;
+}
+article{
+  float: right;width: 78%;
+  background-color: #e3e3e3;
+}
+footer{
+  clear: both;
+  position: relative;
+  top: 15px;
+}
+section,header,footer{
+  width: 1080px;
+  margin: auto;
+}
+header,footer{
+  background-color: gray;
+}
+header,footer,aside,article{
+  outline-color: black;
+  outline-style: solid;
+  outline-width: 1px;
+}
+body{
+  background-color: silver;
+}
